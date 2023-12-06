@@ -1,0 +1,227 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.ul,
+li,
+a {
+  text-decoration: none;
+  list-style: none;
+}
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  align-items: center;
+}
+.navbar_text {
+  display: flex;
+  gap: 33px;
+}
+.navbar_a {
+  color: #83888f;
+  font-family: Barlow;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 15px; /* 125% */
+  letter-spacing: 0.923px;
+  text-transform: uppercase;
+}
+.header {
+  background-image: url("./foto/bagraund.svg");
+  object-fit: fill;
+  margin-top: 50px;
+}
+.header1_img {
+  border-radius: 10px;
+}
+.header_text {
+  padding-top: 120px;
+  padding-bottom: 100px;
+  padding-left: 86px;
+}
+.header_text h1 {
+  color: #fefcf7;
+  font-family: Fraunces 9pt;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 48px; /* 120% */
+}
+.header_text p {
+  margin-top: 25px;
+  color: #fefcf7;
+  font-family: Barlow;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+.header1 {
+  display: flex;
+  padding-top: 168px;
+  padding-left: 100px;
+}
+.header1_text {
+  margin-top: 200px;
+  padding-left: 100px;
+}
+.header1_text h1 {
+  color: #333d4b;
+  font-family: Fraunces 9pt;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 48px; /* 120% */
+}
+.header1_text p {
+  margin-top: 30px;
+  color: #333d4b;
+  font-family: Barlow;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+.header2 {
+  height: 562px;
+  display: flex;
+  width: 1280px;
+  align-items: flex-end;
+  position: relative;
+  margin-top: 160px;
+}
+.header_img {
+  position: absolute;
+  right: 80px;
+  top: 0;
+  border-radius: 10px;
+}
+.header2_text {
+  border-radius: 10px;
+  background: #2c343e;
+  padding-top: 88px;
+  padding-bottom: 176px;
+  width: 1280px;
+  padding-left: 85px;
+}
+.header2_text h1 {
+  color: #fefcf7;
+  font-family: Fraunces 9pt;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 48px; /* 120% */
+}
+.header2_text p {
+  color: #fefcf7;
+  font-family: Barlow;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  margin-top: 32px;
+}
+.header4 {
+  display: flex;
+  margin-top: 100px;
+  align-items: center;
+  gap: 108px;
+}
+.head {
+  display: flex;
+  padding-left: 105px;
+  margin-top: 150px;
+}
+.head h1 {
+  color: #83888f;
+  font-family: Fraunces 9pt;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 32px; /* 133.333% */
+}
+.carts_text3 h1 {
+  margin-top: 40px;
+  color: #333d4b;
+  font-family: Fraunces 9pt;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 36px; /* 112.5% */
+}
+.carts_text3 p {
+  margin-top: 24px;
+  color: #333d4b;
+  font-family: Barlow;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+.carts_text4 {
+  padding-left: 100px;
+}
+.carts_text4 h1 {
+  margin-top: 40px;
+  color: #333d4b;
+  font-family: Fraunces 9pt;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 36px; /* 112.5% */
+}
+.carts_text4 p {
+  margin-top: 24px;
+  color: #333d4b;
+  font-family: Barlow;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+.carts_text5 {
+  padding-left: 120px;
+}
+.carts_text5 h1 {
+  margin-top: 40px;
+  color: #333d4b;
+  font-family: Fraunces 9pt;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 36px; /* 112.5% */
+}
+.carts_text5 p {
+  margin-top: 24px;
+  color: #333d4b;
+  font-family: Barlow;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+
+.header5 {
+  height: 120px;
+  display: flex;
+  margin-top: 200px;
+  align-items: center;
+  background: #2c343e;
+}
+.carts_text6 {
+  display: flex;
+  gap: 33px;
+  margin-left: 100px;
+}
+.header5_img {
+  padding-left: 85px;
+}
+.carts_img {
+  margin-left: 100px;
+}
